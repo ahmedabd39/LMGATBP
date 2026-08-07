@@ -1,0 +1,41 @@
+﻿Dataset: jira_2.json
+Model FastGATConv
+Avg accuracy | Avg precision | Avg recall
+95.64+-0.02, 93.51+-0.09, 96.55+-0.08
+-----------------------------------------------------------
+Model GloveGATConv
+Avg accuracy | Avg precision | Avg recall
+90.23+-0.10, 87.12+-0.20, 90.67+-0.17
+-----------------------------------------------------------
+Model GloVeGCNConv
+Avg accuracy | Avg precision | Avg recall
+87.00+-0.04, 83.46+-0.11, 87.00+-0.27
+-----------------------------------------------------------
+Model GloVeGraphConv
+Avg accuracy | Avg precision | Avg recall
+89.61+-0.07, 86.36+-0.22, 90.04+-0.19
+-----------------------------------------------------------
+Model BERT 
+Avg accuracy | Avg precision | Avg recall
+0.9474+-0.0011, 0.9422+-0.0032, 0.9349+-0.0062
+-----------------------------------------------------------
+Model CodeBERT  
+Avg accuracy | Avg precision | Avg recall
+0.9440+-0.0007, 0.9469+-0.0017, 0.9214+-0.0034
+-----------------------------------------------------------
+Model GraphCodeBERT  
+Avg accuracy | Avg precision | Avg recall
+0.9578+-0.0002, 0.9419+-0.0019, 0.9610+-0.0022
+-----------------------------------------------------------
+Model CodeT5  
+Avg accuracy | Avg precision | Avg recall
+0.9593+-0.0002, 0.9442+-0.0014, 0.9623+-0.0015
+-----------------------------------------------------------
+Model UniXcoder 
+Avg accuracy | Avg precision | Avg recall
+0.9562+-0.0001, 0.9381+-0.0013, 0.9616+-0.0015
+-----------------------------------------------------------
+Model LM-GATBP
+Avg accuracy | Avg precision | Avg recall
+0.9733+-0.0006, 0.9642+-0.0043, 0.9742+-0.0041
+
