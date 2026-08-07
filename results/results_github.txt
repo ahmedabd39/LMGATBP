@@ -1,0 +1,40 @@
+﻿Dataset: github.json
+Model FastGATConv
+Avg accuracy | Avg precision | Avg recall
+80.27+-0.01,  81.61+-0.05,    78.99+-0.09
+-----------------------------------------------------------
+Model GloveGATConv
+Avg accuracy | Avg precision | Avg recall
+76.44+-0.14,  77.60+-0.17,    75.46+-0.46
+-----------------------------------------------------------
+Model GloVeGCNConv
+Avg accuracy | Avg precision | Avg recall
+72.94+-0.02,  74.85+-0.32,    70.45+-0.61
+-----------------------------------------------------------
+Model GloVeGraphConv
+Avg accuracy | Avg precision | Avg recall
+74.94+-0.07,  76.60+-0.39,    73.03+-0.70
+-----------------------------------------------------------
+Model BERT 
+Avg accuracy | Avg precision | Avg recall
+0.7834+-0.0007, 0.8031+-0.0025, 0.7605+-0.0053
+-----------------------------------------------------------
+Model CodeBERT 
+Avg accuracy | Avg precision | Avg recall
+0.7863+-0.0007, 0.8072+-0.0036, 0.7617+-0.0073
+-----------------------------------------------------------
+Model GraphCodeBERT 
+Avg accuracy | Avg precision | Avg recall
+0.7895+-0.0002, 0.8051+-0.0017, 0.7732+-0.0029
+-----------------------------------------------------------
+Model CodeT5 
+Avg accuracy | Avg precision | Avg recall
+0.7945+-0.0004, 0.8076+-0.0021, 0.7821+-0.0035
+-----------------------------------------------------------
+Model UniXcoder 
+Avg accuracy | Avg precision | Avg recall
+0.7771+-0.0004, 0.7786+-0.0015, 0.7847+-0.0029
+-----------------------------------------------------------
+Model LM-GATBP
+Avg accuracy | Avg precision | Avg recall
+0.8203+-0.0028, 0.8218+-0.0182, 0.8284+-0.0242
