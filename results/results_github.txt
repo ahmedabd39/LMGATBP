@@ -19,10 +19,6 @@ Model BERT
 Avg accuracy | Avg precision | Avg recall
 0.7834+-0.0007, 0.8031+-0.0025, 0.7605+-0.0053
 -----------------------------------------------------------
-Model CodeBERT 
-Avg accuracy | Avg precision | Avg recall
-0.7863+-0.0007, 0.8072+-0.0036, 0.7617+-0.0073
------------------------------------------------------------
 Model GraphCodeBERT 
 Avg accuracy | Avg precision | Avg recall
 0.7895+-0.0002, 0.8051+-0.0017, 0.7732+-0.0029
